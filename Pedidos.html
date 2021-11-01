@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Confiteria Pastelitos</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/e7e431bded.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <br>
+            <a class="nav" href="index.html"> Home</a>
+            <a class="nav" href="Masas.html"> Masas</a>
+            <a class="nav" href="Tortas.html"> Tortas</a>
+            <a class="nav" href="Pedidos.html"> Pedidos</a>
+            <a class="nav" href="Eventos.html"> Eventos</a>
+        </nav>
+        <h1 class="center">Confiteria Pastelitos</h1>
+    </header>
+    <menu>
+        <h2>Realice su pedido</h2>
+        <form action="show_data.html" target="_blank">
+            <label for="firstname">Nombre:</label> <input type="text" name="firstname" placeholder="Ingrese su Nombre..."> <br><br>
+            <label for="lastname">Apellido:</label> <input type="text" name="lastname" placeholder="Ingrese su Apellido..."> <br><br>
+            <label for="street">Calle:</label> <input type="text" name="street" placeholder="Ingrese su Calle..."> <br><br>
+            <label for="number">Altura:</label> <input type="text" name="number" placeholder="Ingrese su Altura..."> <br><br>
+            <label for="city">Ciudad:</label> <input type="text" name="city" value="Capital Federal"> <br><br>
+            <label for="zipcode ">Codigo Postal:</label> <input type="text" name="zipcode" placeholder="Ingrese su Codigo Postal... "> <br><br>
+            <label for="phone">Telefono:</label> <input type="text" name="phone" placeholder="Ingrese su Telefono... "> <br><br>
+            <label for="date">Fecha de Entrega (dd/mm/aaaa):</label> <input type="text" name="date " placeholder="Ingrese Fecha de Entrega... "> <br><br>
+            <p>Seleccione la cantidad de Comensales:
+                <input type="radio" name="tipodepedido" value="6" checked> 6
+                <input type="radio" name="tipodepedido" value="8"> 8
+                <input type="radio" name="tipodepedido" value="12"> 12
+                <input type="radio" name="tipodepedido" value="24"> 24
+                <input type="radio" name="tipodepedido" value="Más"> Más
+            </p>
+            <p>Seleccione los productos a incluir en la cotización:
+                <input type="checkbox" name="Productos" value="Masas"> Masas
+                <input type="checkbox" name="Productos" value="Tortas"> Tortas
+                <input type="checkbox" name="Productos" value="Servicio de Catering"> Servicio de Catering
+            </p>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Al hacer click en Enviar recibiremos su pedido y lo estaremos cotizando a la brevedad</p>
+
+
+
+
+    </menu>
+    <footer class="center">
+        <a class="redsoc" href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> </a>
+        <a class="redsoc" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
+        <p>Todos los derechos son reservados 2021 </p>
+        <br>
+    </footer>
+
+
+</body>
+
+</html>
